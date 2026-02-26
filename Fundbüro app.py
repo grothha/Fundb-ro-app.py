@@ -3,6 +3,13 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
+# DEBUG AUSGABE 👇 HIER EINFÜGEN
+st.write("Aktuelles Verzeichnis:", os.getcwd())
+st.write("Dateien im Hauptordner:", os.listdir())
+
+# Titel der App
+st.title("🏫 Schul-Fundbüro KI-App")
+st.write("Lade ein Bild hoch und die KI erkennt die Kategorie.")
 # Titel der App
 st.title("🏫 Schul-Fundbüro KI-App")
 st.write("Lade ein Bild hoch und die KI erkennt die Kategorie.")
