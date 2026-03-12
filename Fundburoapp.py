@@ -1,8 +1,3 @@
-Es scheint, als hättest du Schwierigkeiten mit der Pfadstruktur, besonders wenn die App auf Plattformen wie Streamlit Cloud läuft. Wenn du die Dateien direkt im selben Verzeichnis wie dein Skript (oder in einem Unterordner ohne komplexe absolute Pfade) liegen hast, ist es am sichersten, relative Pfade zu verwenden.
-
-Hier ist der bereinigte Code. Ich habe die Pfadlogik so angepasst, dass sie einfach im aktuellen Arbeitsverzeichnis nach dem Ordner model sucht:
-Python
-
 import streamlit as st
 import numpy as np
 from PIL import Image
